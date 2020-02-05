@@ -6,7 +6,7 @@
     <h1>[feed]</h1>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-menu"><i class="fas fa-apple-alt" style="font-size: 8em; color: #8067B7">
+    <button type="button" class="btn btn-menu"><i class="fas fa-apple-alt" style="font-size: 8em; color: #EE0055">
     </i><br><br>
     Food Rescue</button>
     <button  type="button" class="btn btn-menu weight"><i class="fas fa-weight" style="font-size: 8em; color: #7DB1B1">
@@ -14,10 +14,10 @@
     Warehouse Entry </button>
   </div>
   <div class="d-flex justify-content-center">
-    <button  type="button" class="btn btn-menu"><i class="fas fa-truck" style="font-size: 8em; background-color:">
+    <button  type="button" class="btn btn-menu"><i class="fas fa-truck" style="font-size: 8em; color: #0e6502">
     </i><br><br>
     Distribution </button>
-    <button  type="button" class="btn btn-menu"><i class="fas fa-tools" style="font-size: 8em">
+    <button  type="button" class="btn btn-menu"><i class="fas fa-tools" style="font-size: 8em; color: #2c33CC">
     </i><br><br>
     Admin </button>
   </div>
@@ -28,8 +28,8 @@
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 
