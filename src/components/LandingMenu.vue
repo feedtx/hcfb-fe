@@ -39,17 +39,17 @@ export default {
 h1 {
 	font-family: 'Open Sans', serif;
   text-shadow: black 6px 6px;;
-	font-size: 4em;
+	font-size: 3em;
 	color: #cccccc;
 } 
 
 .btn-menu {
 	margin-left: 2rem;
 	margin-right: 2rem;
-	width: 10rem;
-	height: 10rem;
+	width: 13rem;
+	height: 13rem;
 	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 3rem;
   border: 2px solid #6e6e6e;
   box-shadow: 5px 5px #2b2a2a;
 	font-family: 'Open Sans', sans-serif;
