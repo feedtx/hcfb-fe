@@ -29,5 +29,9 @@ body {
   background-color: #171d29;
 }
 
+h1, h2, h3{
+  color: white;
+}
+
 </style>
 
