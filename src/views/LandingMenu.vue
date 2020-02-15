@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div class="d-flex justify-content-center" style="margin-top: 3em; margin-bottom: 2em;">
+    <!-- <div class="d-flex justify-content-center" style="margin-top: 3em; margin-bottom: 2em;">
       <h1>[feed]</h1>
-    </div>
+    </div> -->
     <div class="d-flex justify-content-center">
       <button type="button" class="btn btn-menu"><i class="fas fa-apple-alt" style="font-size: 6em; color: #EE0055">
       </i><br><br>
@@ -24,13 +24,11 @@
 
 <script>
 export default {
-  name: 'LandingMenu',
-  data () {
-    return {
-      
-    }
+  name: "LandingMenu",
+  data() {
+    return {};
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

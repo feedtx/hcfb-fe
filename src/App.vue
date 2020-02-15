@@ -2,18 +2,20 @@
 </style>
 <template>
   <div id="app">
+    <Header />
     <router-view></router-view>
       
   </div>
 </template>
 
 <script>
-import LandingMenu from "@/components/LandingMenu";
+import LandingMenu from "@/views/LandingMenu";
+import Header from "@/components/Header";
 
 export default {
   name: "App",
   components: {
-    LandingMenu
+    Header
   }
 };
 </script>
