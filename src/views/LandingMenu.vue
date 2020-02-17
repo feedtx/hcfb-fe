@@ -3,21 +3,36 @@
     <!-- <div class="d-flex justify-content-center" style="margin-top: 3em; margin-bottom: 2em;">
       <h1>[feed]</h1>
     </div> -->
+
     <div class="d-flex justify-content-center">
+
+      <router-link to="/rescue">
       <button type="button" class="btn btn-menu"><i class="fas fa-apple-alt" style="font-size: 6em; color: #EE0055">
       </i><br><br>
       Food Rescue</button>
+      </router-link>
+
+      <router-link to="/warehouse">
       <button  type="button" class="btn btn-menu weight"><i class="fas fa-weight" style="font-size: 6em; color: #7DB1B1">
       </i><br><br>
       Warehouse Entry </button>
+      </router-link>
     </div>
+
     <div class="d-flex justify-content-center">
+
+      <router-link to="/distribution">
       <button  type="button" class="btn btn-menu"><i class="fas fa-truck" style="font-size: 6em; color: #0e6502">
       </i><br><br>
       Distribution </button>
+      </router-link>
+
+      <router-link to="/admin">
       <button  type="button" class="btn btn-menu"><i class="fas fa-tools" style="font-size: 6em; color: #2c33CC">
       </i><br><br>
       Admin </button>
+      </router-link>
+      
     </div>      
   </div>
 </template>
@@ -31,7 +46,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 h1 {

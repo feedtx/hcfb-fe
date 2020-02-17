@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import LandingMenu from "@/views/LandingMenu";
 import Header from "@/components/Header";
 
 export default {
