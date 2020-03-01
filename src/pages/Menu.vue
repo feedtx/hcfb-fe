@@ -53,7 +53,8 @@ export default {
 	margin-right: 2rem;
   margin-top: 1rem;
 	margin-bottom: 3rem;
-  background-color: #383a3d; 
+  background-color: #383a3d;
+  border-radius:  25px;
 }
 
 .title {
