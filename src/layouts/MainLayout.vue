@@ -24,7 +24,7 @@
 
     <q-drawer
       v-model="rightDrawerOpen"
-      show-if-above
+      
       side="right" 
       bordered
       content-class="bg-grey-4"
@@ -43,29 +43,6 @@
           v-bind="link"
           :to="link.to"
         />
-        
-      <!-- Don't delete below q-item code, debugging routes issue -->
-      <!-- <q-item
-        v-for="link in essentialLinks"
-        :key="link.title"
-        :to="link.to"
-        clickable
-        >
-
-        <q-item-section
-          v-if="link.icon"
-          avatar
-          >
-          <q-icon :name="link.icon" />
-        </q-item-section>
-
-        <q-item-section>
-          <q-item-label>{{ link.title }}</q-item-label>
-          <q-item-label caption>
-            {{ link.caption }}
-          </q-item-label>
-        </q-item-section> 
-      </q-item> -->
 
       </q-list>
       </q-drawer>
