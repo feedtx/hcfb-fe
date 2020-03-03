@@ -37,15 +37,15 @@
           Navigation
         </q-item-label>
 
-        <!-- Don't delete Navigation component code, debugging routes issue -->
-        <!-- <Navigation
+        <Navigation
           v-for="link in essentialLinks"
           :key="link.title"
-          :to="link.to"
           v-bind="link"
-        /> -->
-
-      <q-item
+          :to="link.to"
+        />
+        
+      <!-- Don't delete below q-item code, debugging routes issue -->
+      <!-- <q-item
         v-for="link in essentialLinks"
         :key="link.title"
         :to="link.to"
@@ -64,9 +64,8 @@
           <q-item-label caption>
             {{ link.caption }}
           </q-item-label>
-        </q-item-section>
-
-      </q-item>
+        </q-item-section> 
+      </q-item> -->
 
       </q-list>
       </q-drawer>
